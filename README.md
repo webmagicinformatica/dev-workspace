@@ -10,9 +10,8 @@ It runs in your browser with GitHub Codespaces, so you don't need to install any
 ## Get started
 
 1. Sign in to GitHub with **your own** account (a free account is fine).
-2. Click **Use this template** → **Open in a codespace**.
-   (Or click the badge above.)
-3. Wait a minute or two while it sets up.
+2. Click **Use this template** → **Create a new repository**. Name it (e.g. `my-ai-labs`), keep it **Private**, and create it.
+3. In your new repo, click the green **Code** button → **Codespaces** → **Create codespace on main**, and wait a minute or two while it sets up.
 4. In the terminal at the bottom, run:
 
    ```bash
@@ -46,7 +45,7 @@ Your personal GitHub account gets a free monthly Codespaces allowance (about **6
 
 Never put API keys in files, code or notebooks, and never commit them. Use **Codespaces secrets** instead.
 
-Secrets are given to a codespace through its repository, so your codespace must belong to a repo in your account first. If you opened it with **Use this template → Open in a codespace**, publish it once: open the **Source Control** panel on the left and click **Publish Branch**. (Or create your copy with **Use this template → Create a new repository**, then open it in a codespace from the green **Code** button.)
+Secrets are given to a codespace through its repository, so your codespace must belong to a repo in your account first. If you followed the steps above, it already does. (If you opened a codespace straight from the template or the badge, publish it once: **Source Control** panel → **Publish Branch**.)
 
 1. Go to [Settings → Codespaces](https://github.com/settings/codespaces).
 2. Under **Codespaces secrets**, click **New secret**.
